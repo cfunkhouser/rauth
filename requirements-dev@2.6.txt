@@ -2,7 +2,9 @@ coverage==3.6
 flake8==2.0
 mock==1.0.1
 nose==1.2.1
-pycrypto==2.5
-requests>=1.2.3
+pycrypto==2.6.1
+requests>=2.31.0
 unittest2==0.5.1
 yanc==0.2.3
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
