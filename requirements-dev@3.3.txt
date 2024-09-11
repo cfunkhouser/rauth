@@ -3,5 +3,7 @@ flake8==2.0
 mock==1.0.1
 nose==1.2.1
 pycrypto==2.5
-requests>=1.2.3
+requests>=2.31.0
 yanc==0.2.3
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
